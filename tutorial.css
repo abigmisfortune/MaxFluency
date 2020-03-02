@@ -1,0 +1,65 @@
+
+html{ height:220%; 
+    
+}
+
+body { background: rgb(34,193,195);
+background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+}
+
+.doggo{height: 300px; width: 300px; margin-top: 70px;
+
+}
+.condog{width: 400px;
+
+}
+
+.lessons{width: 400px;
+
+}
+
+
+#one:hover, #two:hover {
+    cursor: pointer;
+    color: white;
+background-color: #0ff;
+box-shadow: 0px 0px 50px 10px #0ff,
+            0px 0px 50px 15px green;
+
+}
+
+#tut:focus, #appinfo:focus {
+    outline: 0;
+}
+
+
+.les {background-color:white; width:250px; height:250px; border-radius:30px; padding: 15px; font-size:150%; margin-bottom:20px; margin-top: 50px;
+ display:block; font-family: 'Takota';
+
+}
+
+.nav { width:100%; height:50px;background-color:black; position:fixed;bottom:0px;margin:0;padding:0; right: 0px;
+    
+}
+
+.loc{height:35px; background-color:black; margin:10px;color:white; vertical-align: middle;border-radius:20px; 
+    font-size:medium; display:inline-block;
+    
+}
+
+.coming{font-family: 'Takota';
+    margin: 30px;
+    font-size: 300%;
+
+
+}
+
+.loc:focus {
+    outline: 0;
+}
+    
+
+
+.topbar{height:40px; width:100%;background-color:black; color:white; padding:20px; position: fixed ;z-index:20;margin-bottom:30 px;
+    font-family: 'Takota'; font-size: 150%; top: 0px; left: 0px;
+}
